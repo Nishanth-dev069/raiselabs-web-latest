@@ -35,10 +35,10 @@ const values = [
 ]
 
 const milestones = [
-  { year: "2000", event: "DEVI Group founded with vision for excellence in manufacturing" },
-  { year: "2010", event: "Expanded into pharmaceutical laboratory equipment segment" },
-  { year: "2018", event: "Achieved 500+ machines annual production capacity" },
-  { year: "2022", event: "Raise Lab Equipment established as dedicated pharma division" }
+  { year: "1993", event: "DEVI Group founded with vision for excellence in manufacturing" },
+  { year: "2018", event: "Expanded into pharmaceutical laboratory equipment segment" },
+  { year: "2022", event: "Raise Lab Equipment established as dedicated pharma division" },
+  { year: "2024", event: "Achieved 1000+ machines annual production capacity" }
 ]
 
 const capabilities = [
