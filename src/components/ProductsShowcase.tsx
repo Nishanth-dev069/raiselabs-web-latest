@@ -17,7 +17,7 @@ export default function ProductsShowcase() {
             Product Categories
           </h2>
           <p className="text-lg lg:text-xl text-muted-foreground">
-            Explore our comprehensive range of pharmaceutical testing instruments across six specialized categories.
+            Explore our comprehensive range of pharmaceutical testing instruments across specialized categories.
           </p>
         </div>
       </div>
