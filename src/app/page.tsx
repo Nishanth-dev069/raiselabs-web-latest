@@ -12,20 +12,37 @@ import { generateMetadata as generateSEOMetadata, generateOrganizationSchema } f
 import type { Metadata } from "next"
 
 export const metadata: Metadata = generateSEOMetadata({
-  title: "Home - Premium Laboratory Testing Equipment",
-  description: "Raise Lab Equipment offers world-class pharmaceutical testing instruments including hardness testers, dissolution testers, friability testers, and powder testing equipment. ISO certified quality.",
+  title: "Raise Lab Equipment – Best Pharmaceutical & Laboratory Testing Equipment in Hyderabad, India",
+  
+  description:
+    "Raise Lab Equipment is a leading manufacturer and supplier of pharmaceutical and laboratory testing instruments in Hyderabad, India. We provide tablet testing machines, dissolution testers, hardness testers, friability testers, powder flow testers and ISO certified quality control equipment for pharma companies, research labs and universities.",
+
+  // Balanced: Google-safe + Other engines
   keywords: [
-    "laboratory equipment",
-    "pharmaceutical testing",
-    "tablet hardness tester",
-    "dissolution tester",
+    // Brand
+    "Raise Lab Equipment",
+    "Raise Lab",
+
+    // Google core
+    "pharmaceutical laboratory equipment",
+    "laboratory testing instruments Hyderabad",
+    "pharma quality control equipment",
+
+    // Other search engines
+    "laboratory equipment manufacturer India",
+    "pharmaceutical testing machines",
+    "lab instruments supplier",
+    "tablet testing machines",
+    "bulk density apparatus",
+    "powder flow tester",
     "friability tester",
-    "powder testing",
-    "pharmaceutical instruments",
-    "quality control equipment",
-    "lab instruments",
-    "raise lab equipment"
+    "dissolution tester",
+    "ISO certified lab equipment",
+    "pharma lab equipment dealer",
+    "laboratory equipment supplier Hyderabad",
+    "pharmaceutical equipment India"
   ],
+
   url: "/",
   type: "website"
 })
@@ -35,7 +52,7 @@ export default function Home() {
 
   return (
     <div className="flex min-h-screen flex-col">
-      {/* Structured Data */}
+      {/* Google Structured Data */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
